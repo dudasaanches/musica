@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.banner{
+    width: 100%;
+}
+
+.tudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+.resto{
+    width: 450px;
+    height: 450px;
+    overflow: auto;
+    background-color: black;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.principal img{
+    width: 350px;
+    height: 350px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.nome{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nome:hover{
+    background-color:blueviolet;
+}
+
+.pequena {
+    width: 56px;
+    height: 56px;
+}
+
+.info{
+    margin-left: 5px;
+    color: white;
+}
+.principal{
+    width: 115px;
+}
+
+.artistaprinci{
+    font-weight: 200;
+    margin-left: 148px;
+    width: 350px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.68);
+
+}
+
+.principal h2{
+    font-weight: 500;
+    margin-left: 148px;
+    width: 350px;
+    text-align: center;
+}
+
+.logo{
+    width: 200px;
+}
+
+.inp{
+   flex: none;
+
+}
+nav{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.pesq{
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+
+*::-webkit-scrollbar {
+    width: 10px; /* Largura da barra de rolagem */
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: blueviolet;
+    border-radius: 10px;
+    /* Cor do polegar da barra de rolagem (parte que você arrasta) */
+}
+
+*::-webkit-scrollbar-track {
+    background-color: #262626;
+    /* Cor da pista da barra de rolagem (fundo) */
+}
+
+.main{
+    background-color: black;
+}
+.h1destaques{
+    padding: 50px;
+    margin-top: 70px;
+}
+.destaques{
+    margin-left: 50px;
+}
+h1, h2, h3,p{
+    color: #efefef;
+}
+.h4dest{
+    color: rgba(255, 255, 255, 0.68);
+}
+
+.btn{
+    height: 40px;
+    padding: 5px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid blueviolet;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    margin-left:25px;
+    font-family: Bahnschrift;
+
+}
+.btn:hover{
+    background-color:blueviolet;
+}
+
+.destaques{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.barra {
+    height: 8px;
+    background-color: #7720c4;
+    margin-left: 148px;
+    width: 350px;
+
+}
+.banner{
+    height: 700px;
+    width: 100%;
+}
+
+.button {
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid blueviolet;
+    overflow: hidden; /* Certifica-se de que a imagem não ultrapassa as bordas do botão */
+}
+
+.button img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.play{
+    font-size: 65px;
+    color: #7720c4;
+    text-align: center;
+    margin-left: 140px;
+}
+
+@media (max-width: 321px){
+    .destaques{
+        display: block;
+    }
+    .imgdestaques{
+        margin-left: -11px;
+    }
+    .banner{
+        height: 206px;
+    }
+    .h1destaques{
+        padding: 0;
+        text-align: center;
+    }
+    .tudo{
+        display: block !important;
+        width: 100px !important;
+    }
+    .header{
+        padding: 10px !important;
+    }
+}
+
+
+@media (max-width: 769px) {
+   .destaques{
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+       gap: 143px;
+       padding: 0;
+
+   }
+    .h1destaques{
+        text-align: center;
+        margin: 0;
+    }
+    .banner{
+        height: 240px;
+    }
+    .tudo{
+        display: block !important;
+        margin-left: -140px;
+    }
+    .resto{
+        width: 363px !important;
+        margin-left: 140px;
+    }
+
+    .pesq {
+        height: 40px;
+        width: 240px !important;
+        border-radius: 5px;
+        margin-bottom: 28px;
+    }
+}
+
+@media(max-width: 391px){
+    .destaques{
+        margin-left: 70px;
+    }
+}
