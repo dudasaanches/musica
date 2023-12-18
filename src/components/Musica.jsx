@@ -106,7 +106,7 @@ function Musica(props) {
         <div className={css.main}>
             <nav style={{backgroundColor:"black", padding:'0'}} className={css.header + " navbar navbar-expand-lg bg-body-tertiary"}>
                 <div style={{backgroundColor:"black"}} className="container-fluid">
-                    <img className={css.logo} src='/logobeat.jpg'/>
+                    <img className={css.logo} src='./logobeat.jpg'/>
                     <button
                         className="navbar-toggler"
                         type="button"
